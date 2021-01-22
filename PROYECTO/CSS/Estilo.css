@@ -1,0 +1,18 @@
+body{
+
+    background-color: #ffdd90;
+    background-image: url("../IMAGENES/doctor.jpg");
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+div.cuadrado{
+   width: 150px;
+   height: 40px;
+   border: 1px solid #dddddd;
+   margin: 5px;
+}
+div.textogrande{
+   font-family: verdana, arial, helvetica;
+   font-weight: bold;
+   font-size: 40pt;
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+.body-registro{
+  margin: 0;
+  font-family: sans-serif;
+  background: #204862;
+  background-image: url(../IMAGENES/online.png);
+}
+
+.body-consulta{
+  margin: 0;
+  font-family: sans-serif;
+  background: #204862;
+  /*background-image:*/
+  background-image: linear-gradient(to left, 120deg, #84fab0 0%, #8fd3f4 100%);
+background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+}
+
+.form-registro{
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  background: Aquamarine;
+  border-radius: 7px;
+}
+
+.form-titulo{
+  background: deepskyblue;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom: 5px solid crimson;
+}
+.conenedor-inputs{
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+input{
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid lightskyblue;
+}
+.cuadr-chico{
+  width: 38%;
+}
+.cuadr-gran{
+  width: 100%;
+}
+.btn-enviar{
+  background: cornflowerBlue;
+  color: #fff;
+}
+.rec-sexo{
+  background: #blue;
+  color: blue;
+  border: 2px solid lightskyblue;
+  width: 100%;
+  justify-content:space-between;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 16px;
+}
+table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	th {
+		background: #333;
+		color: white;
+		font-weight: bold;
+    padding: 6px;
+    border: 1px solid indigo;
+    text-align: center;
+	}
+	td, tr {
+    background: rgba(221,160,221);
+		padding: 6px;
+		border: 1px solid indigo;
+		text-align: center;
+	}
