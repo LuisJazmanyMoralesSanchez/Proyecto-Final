@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/EstiloM.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Consultorio web</title>
+  </head>
+  <body>
+
+    <header class="header" id="inicio">
+      <img src="IMAGENES/menu.svg" alt="" class="hamburger">
+      <nav class="menu-navegacion">
+        <a href="#inicio">INICIO</a>
+        <a href="#servicio">SERVICIO</a>
+        <a href="http://localhost/PROYECTO/BD/registro.php">Formulario</a>
+        <a href="#portafolio">PORTAFOLIO</a>
+        <a href="#expertos">EXPERTOS</a>
+        <a href="#contacto">CONTACTO</a>
+        <a href="http://localhost/PROYECTO/BD/consultar.php"><input type="button" name="Registro" value="Registro"> </a>
+      </nav>
+      <div class="contenedor head">
+        <h1 class="titulo" ><i>Nos especializamos en darte una mejor atención médica.</i></h1>
+        <p class="copy">.</p>
+      </div>
+
+    </header>
+
+    <main>
+      <section class="contenedor" id="servicio">
+        <h2 class="subtitulo"><p>Nuestro servicio</p></h2>
+        <div class="contenedor-servicio">
+          <!--img src="IMAGENES/notificacion.svg" alt=""-->
+          <ol>
+            <input type="button" onclick="formulario()" value="Formulario">
+          </ol>
+          <div class="tablero" id="desplegable">
+            <p class="">Para ver el formulario selección el botón "formulario"</p>
+          </div>
+          <div class="checlist-servicio">
+            <div class="service">
+              <h3 class="n-service"><span class="number">1</span>POLÍTICA DE CALIDAD</h3>
+              <p >Ofrece una atención médica oportuna, profesional y tecnológica, dentro de un entorno de
+                calidez y trabajo en equipo, creando un ambiente confortable y seguro para lograr
+                satisfacer las necesidades de nuestros pacientes y usuarios, mejorando continuamente la
+                eficacia de nuestro sistema de administración de la calidad.</p>
+            </div>
+            <div class="service">
+              <h3 class="n-service"><span class="number">2</span>MISIÓN</h3>
+              <p >Brindar un soporte en la gestión de registro y atención médica a pacientes y usuarios, con
+                los más altos estándares de calidad, integral y seguridad. Colaborando para mejorar la salud y
+                la calidad de vida de los ciudadanos.</p>
+            </div>
+            <div class="service">
+              <h3 class="n-service"><span class="number">3</span>VISIÓN</h3>
+              <p >Liderar la administración y gestión de registros y consultas médicas para asegurar su
+                sostenibilidad, promoviendo la innovación e incorporando las nuevas tecnologías disponibles.
+                Ser reconocidos como referentes, desde la perspectiva asistencial e innovadora.</p>
+            </div>
+            <div class="service">
+              <h3 class="n-service"><span class="number">3</span>VALORES</h3>
+              <p >Integridad
+                  Honestidad,Respeto, Trabajo en Equipo, Creatividad e Innovación
+                  Calidez y Comprensión</p>
+            </div>
+            <div class="service">
+              <h3 class="n-service"><span class="number">3</span>OBJETIVOS DE CALIDAD</h3>
+              <p >Satisfacción del Cliente
+                  Calidad de la atención
+                  Satisfacción y desarrollo del personal
+                  Rentabilidad</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="portafolio">
+        <div class="contenedor">
+          <h2 class="subtitulo">Galería</h2>
+          <div class="contenedor-galeria">
+            <img src="IMAGENES/a1" alt="" class="img-galeria">
+            <img src="IMAGENES/a2" alt="" class="img-galeria">
+            <img src="IMAGENES/a3" alt="" class="img-galeria">
+            <img src="IMAGENES/a4" alt="" class="img-galeria">
+            <img src="IMAGENES/a5" alt="" class="img-galeria">
+            <img src="IMAGENES/A6" alt="" class="img-galeria">
+          </div>
+        </div>
+      </section>
+      <section class="imagen-light">
+        <img src="IMAGENES/close.svg" alt="" class="close">
+        <img src="IMAGENES/galeria8.jpg" alt="" class="agregar-imagen">
+      </section>
+      <section class="contenedor" id="expertos">
+        <h2 class="sutitulo">Expertos en: </h2>
+        <section class="expert">
+          <div class="cont-expert">
+            <img src="IMAGENES/doctor1.svg" class="Doc">
+            <h3 class="n-expert">Doctor (a)</h3>
+            <div class="tablero1" id="Doct">
+
+            </div>
+          </div>
+          <div class="cont-expert" >
+            <img src="IMAGENES/servicio.svg" class="Enf">
+            <h3 class="n-expert">Enfermeros (as)</h3>
+            <div class="tablero1" id="Enfermeros">
+
+            </div>
+          </div>
+
+        </section>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <div class="contenedor footer-content">
+        <div class="contact-us">
+          <h2 class="brand">Contacto</h2>
+          <p>Tenemos doctores (as), enfermeras (os) certificados.</p>
+          <p>MedicBD@gmail.com  y al teléfono +52(1) 666-222-1010</p>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/Medicdb-101593435270151" class="social-media-icon">
+            <i class='bx bxl-facebook-square'></i>
+          </a>
+          <a href="./" class="social-media-icon">
+            <i class='bx bxl-twitter'></i>
+          </a>
+          <a href="./" class="social-media-icon">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </footer>
+
+<script src="JS/menu.js"></script>
+<script src="JS/lightbox.js"></script>
+
+  </body>
+</html>
